@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Lista de Tarefas</title>
 </head>
 <body>
 	
@@ -36,6 +36,8 @@
 						value="${tarefa.dataFinalizacao.time}"
 						pattern="dd/MM/yyyy"/>
 				</td>
+				<td>
+					<a href="removeTarefa?id=${tarefa.id}">Remover</a>
 			</tr>
 		</c:forEach>
 	</table>
