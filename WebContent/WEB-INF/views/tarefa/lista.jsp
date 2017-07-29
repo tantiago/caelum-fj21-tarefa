@@ -62,7 +62,7 @@
 				</td>
 				<td>
 					<a href="#" onClick="removeTarefa(${tarefa.id})">
-						Remove agora!
+						Remove Agora!
 					</a>
 				</td>
 				<td>

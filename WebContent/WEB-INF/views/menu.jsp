@@ -10,6 +10,7 @@
 	<h2>Página Inicial da Lista de Tarefas</h2>
 	<p>Bem vindo, ${usuarioLogado.login }</p>
 	<a href="listaTarefas">Clique Aqui</a> para acessar a lista de tarefas
+	<a href="logout">Sair do sistema</a>
 
 </body>
 </html>
